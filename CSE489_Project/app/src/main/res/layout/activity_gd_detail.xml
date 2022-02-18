@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#DCDCDC"
+    android:orientation="vertical"
+    android:padding="8dp">
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="GD Details"
+        android:textColor="#2832C2"
+        android:textSize="24dp"
+        android:textStyle="bold"
+        android:gravity="center"/>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_margin="8dp"
+        android:padding="16dp"
+        android:background="#eeeeee">
+
+        <EditText
+            android:id="@+id/etDate"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="left"
+            android:hint="6 August, 2021"
+            android:textColorHint="#808080"
+            android:textColor="@color/black"/>
+
+<!--        <EditText-->
+<!--            android:id="@+id/etNid"-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:gravity="left"-->
+<!--            android:hint="1234567890 (NID)"/>-->
+
+        <EditText
+            android:id="@+id/etPoliceStation"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="left"
+            android:inputType="text"
+            android:hint="Police Station"
+            android:textColorHint="#808080"
+            android:textColor="@color/black"/>
+
+        <EditText
+            android:id="@+id/etFullName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="left"
+            android:hint="Md. Ashikur Rahman"
+            android:textColorHint="#808080"
+            android:textColor="@color/black"/>
+
+
+        <EditText
+            android:id="@+id/etNid"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="left"
+            android:inputType="text"
+            android:hint="NID"
+            android:textColorHint="#808080"
+            android:textColor="@color/black"/>
+
+
+        <EditText
+            android:id="@+id/etCorrAddr"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="left"
+            android:hint="Ramna Park"
+            android:textColorHint="#808080"
+            android:textColor="@color/black"/>
+
+        <EditText
+            android:id="@+id/etCell"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="left"
+            android:hint="018xxxxxxxx"
+            android:textColorHint="#808080"
+            android:textColor="@color/black"/>
+
+        <EditText
+            android:id="@+id/etGdDesc"
+            android:layout_width="match_parent"
+            android:layout_height="120dp"
+            android:gravity="left"
+            android:lines="5"
+            android:hint="My mobile has been lost."
+            android:textColorHint="#808080"
+            android:textColor="@color/black"/>
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:orientation="horizontal"
+            android:layout_marginTop="10dp">
+
+            <Button
+                android:id="@+id/btnAccept"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:clickable="true"
+                android:gravity="center"
+                android:text="Accept"
+                android:backgroundTint="#6A5ACD"
+                android:textColor="@color/white"
+                android:textStyle="bold" />
+
+
+            <Button
+                android:id="@+id/btnReject"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:clickable="true"
+                android:gravity="center"
+                android:text="Reject"
+                android:backgroundTint="#6A5ACD"
+                android:textColor="@color/white"
+                android:layout_marginLeft="40dp"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:orientation="horizontal"
+            android:layout_marginTop="10dp"
+            android:gravity="center">
+
+
+            <Button
+                android:id="@+id/btnReturn"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:clickable="true"
+                android:text="Return"
+                android:backgroundTint="#FF6347"
+                android:textColor="@color/white"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>
+
+
+
+
+
+
+
+

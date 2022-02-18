@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="edu.ewubd.cse489_project">
+
+    <uses-permission android:name="android.permission.INTERNET"/>
+
+    <application
+        android:usesCleartextTraffic="true"
+        android:allowBackup="true"
+        android:icon="@drawable/icon"
+        android:label="Online GD"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.CSE489_Project">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity android:name = ".SignUpActivity"/>
+        <activity android:name = ".MakeGDActivity"/>
+        <activity android:name = ".AllGDActivity"/>
+        <activity android:name = ".GdDetail"/>
+        <activity android:name = ".AcceptedGDActivity"/>
+
+        <uses-library android:name="org.apache.http.legacy" android:required="false"/>
+    </application>
+
+</manifest>

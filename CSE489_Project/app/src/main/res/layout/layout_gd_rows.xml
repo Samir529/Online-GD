@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="70dp"
+    android:background="#F5F5F5"
+    android:orientation="vertical"
+    android:padding="8dp">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="2"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/tvFullName"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="Full Name"
+            android:textSize="16dp"
+            android:textStyle="bold"
+            android:textColor="#696969"/>
+
+        <TextView
+            android:id="@+id/tvDate"
+            android:layout_width="160dp"
+            android:layout_height="match_parent"
+            android:gravity="right"
+            android:text="Date"
+            android:textSize="14dp"
+            android:textColor="#696969"/>
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="2"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/tvPoliceStationName"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="Police Station Name"
+            android:textSize="16dp"
+            android:textColor="#696969"/>
+
+        <TextView
+            android:id="@+id/tvStatus"
+            android:layout_width="160dp"
+            android:layout_height="match_parent"
+            android:gravity="right"
+            android:text="Status"
+            android:textSize="14dp"
+            android:textStyle="bold"
+            android:textColor="@color/black"/>
+    </LinearLayout>
+
+
+</LinearLayout>
+
+
+
+

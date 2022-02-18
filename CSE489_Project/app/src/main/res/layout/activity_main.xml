@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#eeeeee"
+    android:orientation="vertical">
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="Online"
+        android:textColor="#2832C2"
+        android:textSize="24dp"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:layout_marginTop="8dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="GD"
+        android:textColor="#2832C2"
+        android:textSize="24dp"
+        android:textStyle="bold"
+        android:gravity="center"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="Application"
+        android:textColor="#2832C2"
+        android:textSize="24dp"
+        android:textStyle="bold"
+        android:gravity="center"/>
+
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_margin="40dp">
+
+        <EditText
+            android:id="@+id/etNid"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="left"
+            android:inputType="text"
+            android:hint="NID/Thana-Code/Admin-Code"
+            android:textColorHint="#808080"
+            android:textColor="@color/black"/>
+
+        <EditText
+            android:id="@+id/etPassword"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="left"
+            android:inputType="numberPassword"
+            android:hint="Password"
+            android:textColorHint="#808080"
+            android:textColor="@color/black"/>
+
+        <CheckBox
+            android:id="@+id/cbRememberNid"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Remember NID"
+            android:textColor="@color/black"/>
+<!--            android:buttonTint="#696969"/>-->
+
+        <CheckBox
+            android:id="@+id/cbRememberLogin"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Remember Login"
+            android:textColor="@color/black"/>
+
+
+        <Button
+            android:id="@+id/btnLogin"
+            android:layout_width="match_parent"
+            android:layout_weight="1"
+            android:layout_height="55dp"
+            android:text="Login"
+            android:backgroundTint="#6A5ACD"
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            android:layout_marginTop="10dp"
+            android:gravity="center"/>
+
+        <Button
+            android:id="@+id/btnExit"
+            android:layout_width="match_parent"
+            android:layout_weight="1"
+            android:layout_height="55dp"
+            android:text="Exit"
+            android:backgroundTint="#353935"
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            android:gravity="center"/>
+
+        <TextView
+            android:id="@+id/linkSignup"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="32dp"
+            android:text="Don't have an account?"
+            android:textColor="#3944BC"
+            android:textSize="16dp"
+            android:gravity="center"
+            android:clickable="true"/>
+
+
+
+    </LinearLayout>
+
+</LinearLayout>
+
+
+
+
+
+
+
+
+

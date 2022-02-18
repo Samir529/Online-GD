@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#DCDCDC"
+    android:orientation="vertical"
+    android:padding="8dp">
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="Make A General"
+        android:textColor="#2832C2"
+        android:textSize="24dp"
+        android:textStyle="bold"
+        android:gravity="center"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="Diary"
+        android:textColor="#2832C2"
+        android:textSize="24dp"
+        android:textStyle="bold"
+        android:gravity="center"/>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_margin="8dp"
+        android:padding="16dp"
+        android:background="#eeeeee">
+
+        <EditText
+            android:id="@+id/etDate"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="left"
+            android:inputType="text"
+            android:hint="Date"
+            android:textColorHint="#808080"
+            android:textColor="@color/black"/>
+
+        <EditText
+            android:id="@+id/etPoliceStation"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="left"
+            android:inputType="text"
+            android:hint="Police Station"
+            android:textColorHint="#808080"
+            android:textColor="@color/black"/>
+
+        <EditText
+            android:id="@+id/etFullName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="left"
+            android:inputType="text"
+            android:hint="Full Name"
+            android:textColorHint="#808080"
+            android:textColor="@color/black"/>
+
+
+        <EditText
+            android:id="@+id/etNid"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="left"
+            android:inputType="text"
+            android:hint="NID"
+            android:textColorHint="#808080"
+            android:textColor="@color/black"/>
+
+
+        <EditText
+            android:id="@+id/etCorrAddr"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="left"
+            android:inputType="text"
+            android:hint="Corresponding Address"
+            android:textColorHint="#808080"
+            android:textColor="@color/black"/>
+
+        <EditText
+            android:id="@+id/etCell"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="left"
+            android:inputType="phone"
+            android:hint="Cell Number"
+            android:textColorHint="#808080"
+            android:textColor="@color/black"/>
+
+        <EditText
+            android:id="@+id/etGdDesc"
+            android:layout_width="match_parent"
+            android:layout_height="120dp"
+            android:gravity="left"
+            android:inputType="text"
+            android:lines="5"
+            android:hint="GD Description"
+            android:textColorHint="#808080"
+            android:textColor="@color/black"/>
+
+
+
+        <Button
+            android:id="@+id/btnSubmit"
+            android:layout_width="match_parent"
+            android:layout_weight="1"
+            android:layout_height="60dp"
+            android:text="Submit"
+            android:layout_marginTop="25dp"
+            android:backgroundTint="#6A5ACD"
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            android:gravity="center"/>
+
+    </LinearLayout>
+
+</LinearLayout>
+
+
+
+
+
+
