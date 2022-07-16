@@ -1,1 +1,1 @@
-# Online-GD
+# Online General Diary
