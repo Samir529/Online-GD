@@ -1,1 +1,1 @@
-# Online General Diary
+# Online General Diary App
